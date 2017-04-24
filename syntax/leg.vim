@@ -9,7 +9,7 @@ endif
 
 syn match legFunction '\w\+'
 
-syn keyword legKeywords mov set ld ldb st stb add sub cmp and or xor tst not mshl shr sar rol ror rcl rcr jmp jc jnc jz jnz jo jno js jns jl jle jg jge ja jna push pop call ret in inb out outb pushf popf sys iret clc stc cli sti wait drop hlt
+syn keyword legKeywords mov set ld ldb st stb add sub cmp and or xor tst not shl shr sar rol ror rcl rcr jmp jc jnc jz jnz jo jno js jns jl jle jg jge ja jna push pop call ret in inb out outb pushf popf sys iret clc stc cli sti wait drop hlt
 
 syn match legDirective '.org\|.skip\|.word\|.equ'
 syn match legRegister '\<r\d\|sp\|ip\|fp\>'
